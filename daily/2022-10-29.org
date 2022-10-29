@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       663a0834-40a6-4fea-951c-540ac07243a9
+:END:
+#+title: 2022-10-29
+* Watching a video
+
+It's the one on org-roam dailies.
+* Seocnd one
+
+Pretending to forget
+
+
+[[id:7a8842f5-2028-4ebb-a89a-cdaa59d6a6c3][Sequential Monte Carlo]]

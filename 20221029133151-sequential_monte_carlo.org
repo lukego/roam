@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       7a8842f5-2028-4ebb-a89a-cdaa59d6a6c3
+:ROAM_ALIASES: SMC
+:END:
+#+title: Sequential Monte Carlo
+
+
+[[id:7a8842f5-2028-4ebb-a89a-cdaa59d6a6c3][SMC]]
