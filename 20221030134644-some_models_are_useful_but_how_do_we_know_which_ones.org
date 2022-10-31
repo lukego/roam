@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       7c8c4cb9-b659-4eef-96b9-3d268ef75fc7
+:END:
+#+title: Some models are useful, but how do we know which ones?
+
+Seems like a practical guide to Bayesian "software engineering"?

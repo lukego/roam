@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       12947063-3e00-4c3b-96d1-e4438c5d0bf4
+:END:
+#+title: Set Theory
+
+Books:
+
+- Naive Set Theory is available.
+- Set Theory and Metric Spaces is hard to find.

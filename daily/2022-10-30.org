@@ -2,3 +2,16 @@
 :ID:       e4709539-5446-4e48-81d3-eaeff79b99ba
 :END:
 #+title: 2022-10-30
+* 12:23: Topology Without Tears
+
+Should I read a book on Set Theory first? Which?
+
+Naive Set Theory is available.
+
+Set Theory and Metric Spaces is hard to find.
+* 13:31: Goofing around with math symbols in org-mode
+
+$a^2=b$
+
+(Okay, not working, need to install some TeX packages...)
+* 13:46: Started reading Some models are useful, but how do we know which ones?
