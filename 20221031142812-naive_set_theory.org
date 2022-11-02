@@ -1,0 +1,59 @@
+#+title: 20221031142812 Naive_set_theory
+
+- Axiom of extension. :: Two sets are equal if and only if they have the same elements.
+
+  $$A \subset B \text{ and } B \supset A \iff A = B$$
+
+- Axiom of specification. :: To every set $A$ and to every condition $S(x)$ there corresponds a set $B$ whose elements are exactly those elements $x$ of $A$ for which $S(x)$ holds.
+
+- The empty set. :: Use the axiom of specification to construct a set containing all elements that imply a contradiction i.e. a set that cannot contain any elements.
+
+    $$\varnothing \equiv \{ x \in A : x \not= x \}$$
+
+  The empty set is a subset of all other sets:
+
+      $$ \forall A: \varnothing \subset A $$
+
+- The axiom of pairing. :: For any two sets there exists a set that they both
+  belong to.
+
+\begin{equation}
+\forall a. \forall b. \exists A : a \in A \land b \in A
+\end{equation}
+
+$$\{a, b\} \equiv \{x \in A : x = a \lor x = b \}$$
+
+$$a \in A \equiv \{a\} \subset A$$
+
+
+Exercise:
+
+Are all the sets obtained as below distinct?
+
+- $$X = \varnothing \mid \{X\} \mid \{X, X\}$$
+
+  Yes: the next step is always larger than the previous one. There is no way for them to converge.
+- 0:00:08 :: abc 0:00:00
+- 0:00:02 :: def
+- 0:00:05 ::
+- 0:00:18 ::
+- 0:00:36 ::
+- 0:00:34 ::
+
+  #+BEGIN: clocktable :scope file :maxlevel 2
+  #+CAPTION: Clock summary at [2022-10-31 Mon 20:55]
+  | Headline     | Time   |
+  |--------------+--------|
+  | *Total time* | *0:01* |
+  |--------------+--------|
+  | Thing        | 0:01   |
+  #+END:
+
+* Thing
+:PROPERTIES:
+:Effort:   1:00
+:END:
+:LOGBOOK:
+CLOCK: [2022-10-31 Mon 20:58]--[2022-10-31 Mon 21:02] =>  0:04
+CLOCK: [2022-10-31 Mon 20:52]--[2022-10-31 Mon 20:53] =>  0:01
+:END:

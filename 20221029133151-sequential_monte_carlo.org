@@ -4,5 +4,16 @@
 :END:
 #+title: Sequential Monte Carlo
 
+Sequential Monte Carlo is a way to approximate the posterior distribution
 
-[[id:7a8842f5-2028-4ebb-a89a-cdaa59d6a6c3][SMC]]
+#+begin_src lisp
+(defun importance-sampling (prior proposal likelihood &optional n 10)
+  (loop with particles = (loop repeat n collect (funcall prior))
+        with weights = (loop for p in particles
+                             collect (funcall likelihood p))
+        with nomalizer = (sum weights)
+
+#+end_src
+
+#+RESULTS:
+: 3

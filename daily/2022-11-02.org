@@ -1,0 +1,7 @@
+#+title: 2022-11-02
+* SMC
+Read chapter 1 of [[file:../20221102104654-sequential_monte_carlo_methods_in_practice.org][Sequential Monte Carlo Methods in Practice]].
+Good and clear.
+* Started reading [[file:../20221102135139-set_theory_and_metric_spaces.org][Set Theory and Metric Spaces]]
+* Started reading [[file:../20221102151157-topology_without_tears.org][Topology Without Tears]]
+** Watching his "Writing Proofs in Mathematics" video https://www.youtube.com/watch?v=T1snRQEQuEk&ab_channel=SidneyMorris

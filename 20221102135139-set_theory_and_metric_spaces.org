@@ -1,0 +1,53 @@
+#+title: Set Theory and Metric Spaces
+
+Borrowing from The Internet Archive for one hour at a time.
+
+Link: https://archive.org/details/settheorymetrics0000kapl/page/6/mode/2up?view=theater
+
+* Chapter 1
+** 1.1
+*** Exercise 1
+
+A set $A$ has the promperty than $A \subset B$ holds for any set $B$. Prove that $A = \varnothing$.
+
+\begin{proof}
+\forall B. A \subset B \\
+Let B = \varnothing, \\
+A \subset \varnothing \\
+\text{therefore A contains nothing, therefore A = \varnothing.}
+\end{proof}
+*** Exercise 2
+
+Let A, B, C be sets satisfying $A \subset B, B \subset C, C \subset A$. Prove that $A = B = C$.
+
+Transitivity:
+$$ A \subset B \subset C \subset A $$
+$$ B \subset C \subset A \subset B $$
+$$ C \subset A \subset B \subset C $$
+
+*** Exercise 3
+
+How many elements are there in the following sets?
+\begin{proof}
+\begin{align*}
+|\varnothing| = 0 \\
+|\{\varnothing\}| = 1 \\
+|\{\{\varnothing\}\}| = 1 \\
+|\{\varnothing,\{\varnothing\}\}| = 2 \\
+|\{\varnothing,\varnothing\}| = 2
+\end{align*}
+\end{proof}
+*** Exercise 4
+$$C \subset A \subset (B = D)$$
+*** Exercise 5
+$(A = D) \subset B$
+$(A = D) \subset C$
+*** Exercise 6
+$$| P(\{1,2\}) = \{ \varnothing, \{1\}, \{2\}, \{1,2\}\} | = 4 = 2^2$$
+*** Exercise 7
+$$| P(\{1,2,3\}) = \{ varnothing, \{1\}, \{2\}, \{3\}, \{1,2\}, \{1,3\}, \{2,3\}, \{1,2,3\}\} | | = 8 = 2^3$$
+*** Exercise 8
+The powerset of an N-element set can be mapped directly onto an N-digit binary number.
+
+** 1.2
+Break on middle of page 6 (5')

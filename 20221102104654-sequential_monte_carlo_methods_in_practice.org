@@ -1,0 +1,14 @@
+#+title: Sequential Monte Carlo Methods in Practice
+
+- Editors :: Arnaud Doucet, Nando Freitas, Neil Gordon
+- Published :: 2001
+- URL :: https://link.springer.com/book/10.1007/978-1-4757-3437-9
+
+Costs $200+ new. Seems to be in Skövde Högskola library.
+
+Individual chapters are available online.
+
+Chapter 1 is a readable introduction to SMC for SSM.
+
+Other chapters less compelling? didn't see Bayesian Inference (stationary
+distributions / conditional SMC) covered.

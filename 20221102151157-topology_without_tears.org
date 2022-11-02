@@ -1,0 +1,16 @@
+#+title: Topology Without Tears
+
+https://www.topologywithouttears.net/topbook.pdf
+
+* Chapter 1
+** 1.1
+*** 1.1.1
+Let X be a non-empty set. A set T of subsets of X is said to be a *topology* on X if
+1. X and the empty set, $\varnothing$, belong to T,
+2. the union of any (finite or infinite) number of sets in T belongs to T, and,
+3. the intersection of any two sets in T belongs to T.
+The pair (X,T) is called a *topological space*.
+*** 1.1.6
+Let X be any non-empty set and let T be the collecftion of all subsets of X. Then T is called the *discrete topology* on the set X. The topological space (X,T) is called a *discrete space*.
+*** 1.1.7
+Let X be any non-empty set and T = {X,$\varnothing$}. Then T is called the indiscrete topology and (X,T) is said to be an indiscrete space.
