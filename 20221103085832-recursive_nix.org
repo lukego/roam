@@ -1,0 +1,56 @@
+#+title: Recursive Nix
+
+Recursive Nix, i.e. running a Nix build within a Nix build, works but seems
+really fiddly. If you don't get all the parameters right then you get obscure
+error messages.
+
+It /seems/ like you need to:
+
+1. Enable experimental-feature ~recursive-nix~.
+2. Run with ~--no-sandbox~ and? ~--impure~ both? on the outer and inner builds.
+3. Include ~requiredSystemFeatures = [ "recursive-nix" ]~ on the inner build.
+
+... but that's just the state things were in the first time that I got it working.
+
+* Working example
+** Command line
+sudo nix --experimental-features 'nix-command recursive-nix' build --no-sandbox --impure -L -f recursive.nix
+** recursive.nix
+# recursive.nix -- example of recursive "nix build inside nix build"
+
+with import <nixpkgs> {};
+
+# Inner derivation.
+# Build this recursively inside the outer nix-build.
+let drv =
+      runCommand "hello"
+        { buildInputs = [ hello ]; }
+        "hello > $out";
+in
+
+# Outer derivation.
+# Evaluate the inner derivation and then delegate actual build.
+runCommand "recursive-nix"
+  {
+    buildInputs = [ nixUnstable ];
+    requiredSystemFeatures = [ "recursive-nix" ];
+  }
+  ''
+    nix --experimental-features 'nix-command recursive-nix' \
+      build --no-sandbox --impure -L --expr 'with import ${/home/luke/git/nixpkgs} {}; hello' | tee $out
+  ''
+** NixOS config
+  nix.nixPath = [ "nixpkgs=/home/luke/git/nixpkgs" ];
+  nix.package = pkgs.nixUnstable;
+  nix.extraOptions = ''
+    experimental-features = nix-command flakes recursive-nix
+    trusted-users = luke
+  '';
+  nix.settings.sandbox = "relaxed";
+* Minimizing
+
+What's needed?
+- [ ] supported-features
+- [ ] impure
+- [ ] no-sandbox
+- [ ] root user

@@ -13,4 +13,5 @@ The pair (X,T) is called a *topological space*.
 *** 1.1.6
 Let X be any non-empty set and let T be the collecftion of all subsets of X. Then T is called the *discrete topology* on the set X. The topological space (X,T) is called a *discrete space*.
 *** 1.1.7
-Let X be any non-empty set and T = {X,$\varnothing$}. Then T is called the indiscrete topology and (X,T) is said to be an indiscrete space.
+Let X be any non-empty set and T = {X,$\varnothing$}. Then T is called the
+indiscrete topology and (X,T) is said to be an indiscrete space.

@@ -1,0 +1,8 @@
+#+title: Importance Sampling
+#+begin_src lisp
+(defun is (sample-proposal proposal-likelihood likelihood &key (n 10))
+  ())
+#+end_src
+
+#+RESULTS:
+| :SLYNK | :ASDF3.3 | :ASDF3.2 | :ASDF3.1 | :ASDF3 | :ASDF2 | :ASDF | :OS-UNIX | :NON-BASE-CHARS-EXIST-P | :ASDF-UNICODE | :X86-64 | :GENCGC | :64-BIT | :ANSI-CL | :COMMON-LISP | :ELF | :IEEE-FLOATING-POINT | :LINUX | :LITTLE-ENDIAN | :PACKAGE-LOCAL-NICKNAMES | :SB-CORE-COMPRESSION | :SB-LDB | :SB-PACKAGE-LOCKS | :SB-THREAD | :SB-UNICODE | :SBCL | :UNIX |
